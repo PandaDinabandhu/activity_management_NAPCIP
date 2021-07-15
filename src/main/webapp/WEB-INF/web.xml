@@ -7,10 +7,18 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
-  <resource-ref>
-<description>SampleWebApp Maven Webapp</description>
-<res-ref-name>jdbc/activity</res-ref-name>
-<res-type>javax.sql.DataSource</res-type>
-<res-auth>Container</res-auth>
-</resource-ref>
+  <context-param>
+        <param-name>jdbcURL</param-name>
+        <param-value>jdbc:mysql://172.31.39.91:3306/activity</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>jdbcUsername</param-name>
+        <param-value>root</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>jdbcPassword</param-name>
+        <param-value>Asdf@123</param-value>
+    </context-param>
 </web-app>
