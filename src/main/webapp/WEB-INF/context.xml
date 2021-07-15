@@ -1,7 +1,7 @@
 <Context>
 
 
-<Resource name="jdbc/name"
+<Resource name="jdbc/activity_management"
 
 
 auth="Container"
