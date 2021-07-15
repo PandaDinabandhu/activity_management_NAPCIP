@@ -1,7 +1,7 @@
 <Context>
 
 
-<Resource name="jdbc/activity_management"
+<Resource name="jdbc/activity"
 
 
 auth="Container"
@@ -19,7 +19,7 @@ password="Asdf@123"
 driverClassName="com.mysql.jdbc.Driver"
 
 
-	url="jdbc:mysql://172.31.39.91:3306/name"
+	url="jdbc:mysql://172.31.39.91:3306/activity"
 
 
 maxActive="15"
