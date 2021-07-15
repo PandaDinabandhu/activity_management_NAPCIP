@@ -36,7 +36,6 @@
         <artifactId>mysql-connector-java</artifactId>
         <version>5.1.30</version>
     </dependency>
-</dependencies>
   </dependencies>
   <build>
     <finalName>SampleWebApp</finalName>
