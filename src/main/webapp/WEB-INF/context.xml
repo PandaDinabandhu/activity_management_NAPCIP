@@ -1,0 +1,29 @@
+<Context>
+
+
+<Resource name="jdbc/name"
+
+
+auth="Container"
+
+
+type="javax.sql.DataSource"
+
+
+username="root"
+
+
+password="Asdf@123"
+
+
+driverClassName="com.mysql.jdbc.Driver"
+
+
+	url="jdbc:mysql://172.31.39.91:3306/name"
+
+
+maxActive="15"
+
+maxIdle="3"/>
+
+</Context>
