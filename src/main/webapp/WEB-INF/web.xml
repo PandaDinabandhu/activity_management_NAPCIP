@@ -9,7 +9,7 @@
   </welcome-file-list>
   <context-param>
         <param-name>jdbcURL</param-name>
-        <param-value>jdbc:mysql://172.31.39.91:3306/activity</param-value>
+        <param-value>jdbc:mysql://localhost:3306/activity</param-value>
     </context-param>
  
     <context-param>
