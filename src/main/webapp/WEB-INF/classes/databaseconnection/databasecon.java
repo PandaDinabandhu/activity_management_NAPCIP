@@ -1,23 +1,22 @@
 package databaseconnection;
 import java.sql.*;
-
-public class databasecon
-{
-	static Connection con;
-	public static Connection getconnection()
-	{
- 		
- 			
-		try
-		{
-			Class.forName("com.mysql.jdbc.Driver");	
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/activity","admin","Asdf@123");
-		}
-		catch(Exception e)
-		{
-			System.out.println("class error");
-		}
-		return con;
-	}
-	
-}
+import java.sql.Connection;  
+import java.sql.DriverManager;  
+public class databasecon {  
+        public static void main(String args[]) throws ClassNotFoundException  
+        {  
+            String url;  
+            Connection con = null;  
+            try {  
+                Class.forName("com.mysql.jdbc.Driver");  
+            url="jdbc:mysql://localhost:3306/activity";  
+                con = DriverManager.getConnection(url);  
+                System.out.println("Connection created");  
+                con.close();  
+                System.out.println("Connection closed");  
+                }  
+                catch (Exception e) {  
+                System.out.println(e.toString());  
+            }  
+    }  
+}  
