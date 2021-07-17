@@ -16,6 +16,7 @@ public class databasecon
 		catch(Exception e)
 		{
 			System.out.println("class error");
+			System.out.println("class error");
 		}
 		return con;
 	}
