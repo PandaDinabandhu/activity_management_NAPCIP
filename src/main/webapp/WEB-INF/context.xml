@@ -1,0 +1,29 @@
+<Context>
+
+
+<Resource name="jdbc/activity"
+
+
+auth="Container"
+
+
+type="javax.sql.DataSource"
+
+
+username="admin"
+
+
+password="Asdf@123"
+
+
+driverClassName="com.mysql.jdbc.Driver"
+
+
+	url="jdbc:mysql://localhost:3306/activity"
+
+
+maxActive="15"
+
+maxIdle="3"/>
+
+</Context>
