@@ -8,7 +8,7 @@
   <name>SampleWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-      <dependency>
+      <dependencyh>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>8.0.25</version>
